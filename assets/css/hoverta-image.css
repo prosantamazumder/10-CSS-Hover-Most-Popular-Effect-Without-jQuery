@@ -1,0 +1,940 @@
+/*---------------------------------------
+    	CSS INDEX
+---------------------------------------
+1.Hover title css
+2.Hover-1 section css
+3.Hover-2 section css
+4.Hover-3 section css
+5.Hover-4 section css
+6.Hover-5 section css
+7.Hover-6 section css
+8.Hover-7 section css
+9.Hover-8 section css
+10.Hover-9 section css
+11.Hover-10 section css
+12. Responsive css
+---------------------------------------*/
+
+/*-------------1.Start Hover title css----------------*/
+.hover-title{
+	position: relative;
+	padding-bottom: 80px;
+}
+.hover-title h1{
+	position: relative;
+}
+.hover-title h1:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 120px;
+    height: 2px;
+    background: #222;
+    left: 120px;
+    top: 65px;
+}
+.hover-title h1:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 60px;
+    height: 7px;
+    background: #222;
+    left: 150px;
+    top: 62px;
+}
+/*-------End Hover title css--------*/
+
+/*-------------2.Start Hover-1-----------*/
+.hoverta .hover-1{
+	position: relative;
+}
+.hoverta .single-area-1 .single-img-1 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-1 .single-img-1 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.hoverta .single-overlay-1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	visibility: hidden;
+    transition: all 0.5s;
+    transform: scale(0);
+}
+.hoverta .single-area-1:hover .single-overlay-1{
+	opacity: .8;
+	visibility: visible;
+	transform: scale(1.1);
+}
+.hoverta .single-overlay-1 .item-1{
+	display: block;
+	position: absolute;
+	top: 45%;
+	left: 30%;
+}
+.hoverta .single-overlay-1 .item-1 .item-1-btn{
+	background: #5774ee;
+	color: #fff;
+	padding: 20px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 10px;
+}
+/*-------------End Hover-1-----------*/
+
+/*-------------3.Start Hover-2-----------*/
+.hoverta .hover-2{
+	position: relative;
+}
+.hoverta .single-area-2 .single-img-2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-2 .single-img-2 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.hoverta .single-overlay-2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	visibility: hidden;
+    transition: all 0.5s;
+    transform: scale(0);
+}
+.hoverta .single-area-2:hover .single-overlay-2{
+	opacity: .8;
+	visibility: visible;
+	transform: scale(1.1);
+}
+.hoverta .single-area-2:hover .single-img-2 img{
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+.hoverta .single-overlay-2 .item-2{
+	display: block;
+	position: absolute;
+	padding: 20px;
+	text-align: center;
+}
+.hoverta .single-overlay-2 .item-2 .item-info-2 h3{
+	font-size: 24px;
+	color: #fff;
+}
+.hoverta .single-overlay-2 .item-2 .item-info-2 p{
+	font-size: 14px;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.hoverta .single-overlay-2 .item-2 .item-info-2 .item-2-btn{
+	background: transparent;
+	color: #fff;
+	padding: 15px 30px;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	font-size: 16px;
+	font-weight: 600;
+}
+/*-------------End Hover-2-----------*/
+
+/*-------------4.Start Hover-3-----------*/
+.hoverta .hover-3{
+	position: relative;
+}
+.hoverta .single-area-3 .single-img-3 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-3 .single-img-3 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.hoverta .single-overlay-3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	visibility: hidden;
+    transition: all 0.7s;
+    transform: scale(0);
+}
+.hoverta .single-area-3:hover .single-overlay-3{
+	opacity: .8;
+	visibility: visible;
+	transform: scale(1.1);
+}
+.hoverta .single-area-3:hover .single-overlay-3 .item-3 .item-3-link{
+	left: 42%;
+}
+.hoverta .single-overlay-3 .item-3 .item-3-link {
+	position: absolute;
+	top: 20%;
+	left: -42%;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.hoverta .single-overlay-3 .item-3 .item-3-link a{
+	color: #fff;
+	font-size: 60px;
+}
+.hoverta .single-overlay-3 .item-3 .item-3-social{
+	position: absolute;
+	bottom: 20%;
+	right: -25%;
+}
+.hoverta .single-area-3:hover .single-overlay-3 .item-3 .item-3-social{
+	right: 20%;
+}
+.hoverta .single-overlay-3 .item-3 .item-3-social ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.hoverta .single-overlay-3 .item-3 .item-3-social ul li a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #fff;
+}
+/*-------------End Hover-3-----------*/
+
+/*-------------5.Start Hover-4-----------*/
+.hoverta .hover-4{
+	position: relative;
+}
+.hoverta .single-area-4 .single-img-4 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-4 .single-img-4 img {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.hoverta .single-overlay-4{
+	position: absolute;
+	top: 0;
+	right: -100%;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.hoverta .single-area-4:hover .single-img-4 img{
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	-o-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.hoverta .single-area-4:hover .single-overlay-4{
+	right: 0;
+	opacity: .9;
+}
+.hoverta .single-overlay-4 .item-4 .item-4-link {
+	position: absolute;
+	top: 40%;
+	left: 42%;
+}
+.hoverta .single-overlay-4 .item-4 .item-4-link a{
+	color: #fff;
+	font-size: 60px;
+}
+/*-------------End Hover-4-----------*/
+
+/*-------------6.Start Hover-5-----------*/
+.hoverta .hover-5{
+	position: relative;
+}
+.hoverta .single-area-5{
+	overflow: hidden;
+}
+.hoverta .single-area-5 .single-img-5 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-5 .single-img-5 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.hoverta .single-overlay-5{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-area-5:hover .single-overlay-5 .item-5 .item-5-info{
+	top: 0;
+	opacity: .8;
+}
+.hoverta .single-overlay-5 .item-5{
+	width: 100%;
+	height: 100%;
+}
+.hoverta .single-overlay-5 .item-5 .item-5-info{
+	position: absolute;
+	top: -100%;
+	right: 0;
+	width: 50%;
+	height: 50%;
+	background: #000;
+	text-align: center;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.hoverta .single-overlay-5 .item-5 .item-5-info h4{
+	margin-top: 40px;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+.hoverta .single-overlay-5 .item-5 .item-5-info .item-5-btn{
+	background: #5774ee;
+	padding: 15px 35px;
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+	border-radius: 30px;
+}
+.hoverta .single-overlay-5 .item-5 .item-5-social{
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	width: 50%;
+	height: 50%;
+	background: #5774ee;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.hoverta .single-overlay-5 .item-5 .item-5-social ul{
+	margin-top: 70px;
+	text-align: center;
+}
+.hoverta .single-overlay-5 .item-5 .item-5-social ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.hoverta .single-overlay-5 .item-5 .item-5-social ul li a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.hoverta .single-area-5:hover .single-overlay-5 .item-5 .item-5-social{
+	bottom: 0;
+	opacity: .8;
+}
+/*-------------End Hover-5-----------*/
+
+/*-------------7.Start Hover-6-----------*/
+.hoverta .hover-6{
+	position: relative;
+}
+.hoverta .single-area-6{
+	overflow: hidden;
+}
+.hoverta .single-area-6 .single-img-6 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-6 .single-img-6 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.hoverta .single-overlay-6{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-area-6:hover .single-overlay-6 .item-6 .item-6-info{
+	left: 0;
+	opacity: .8;
+}
+.hoverta .single-overlay-6 .item-6{
+	width: 100%;
+	height: 100%;
+}
+.hoverta .single-overlay-6 .item-6 .item-6-info{
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 70%;
+	height: 100%;
+	background: #000;
+	padding: 20px 30px;
+	-webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-overlay-6 .item-6 .item-6-info h4{
+	margin-top: 40px;
+	font-size: 20px;
+	color: #fff;
+}
+.hoverta .single-overlay-6 .item-6 .item-6-info-list{
+	margin-bottom: 40px;
+}
+.hoverta .single-overlay-6 .item-6 .item-6-info-list li span{
+	margin-right: 10px;
+	color: #5774ee;
+}
+.hoverta .single-overlay-6 .item-6 .item-6-info-list li{
+	color: #fff;
+	line-height: 30px;
+}
+.hoverta .single-overlay-6 .item-6 .item-6-info .item-6-btn{
+	background: #5774ee;
+	padding: 15px 35px;
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+	border-radius: 5px;
+}
+.hoverta .single-overlay-6 .item-6-arrow{
+	position: absolute;
+	top: 20%;
+	right: -100%;
+	width: 10%;
+	height: 60%;
+	background: #5774ee;
+	-webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-overlay-6 .item-6-arrow .arrow-6-list{
+	position: absolute;
+	top: 20%;
+	left: -40%;
+}
+.hoverta .single-overlay-6 .item-6-arrow .arrow-6-list li a{
+	display: block;
+	color: #5774ee;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	font-size: 24px;
+	background: #fff;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.hoverta .single-area-6:hover .single-overlay-6 .item-6 .item-6-arrow{
+	right: 0;
+	opacity: .8;
+}
+/*-------------End Hover-6-----------*/
+
+
+/*-------------8.Start Hover-7-----------*/
+.hoverta .hover-7{
+	position: relative;
+}
+.hoverta .single-area-7{
+	overflow: hidden;
+}
+.hoverta .single-area-7 .single-img-7 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-7 .single-img-7 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.hoverta .single-area-7 .single-img-7 .single-overlay-7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: #000;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-area-7:hover .single-overlay-7{
+	left: 0;
+	opacity: .9;
+}
+.hoverta .single-overlay-7 .item-7 .item-7-zoom{
+	position: absolute;
+    left: 42%;
+    top: 35%;
+}
+.hoverta .single-overlay-7 .item-7 .item-7-zoom a{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #fff;
+	border-radius: 50%;
+	color: #5774ee;
+	font-size: 24px;
+	display: block;
+}
+/*-------------End Hover-7-----------*/
+
+/*-------------9.Start Hover-8-----------*/
+.hoverta .hover-8{
+	position: relative;
+}
+.hoverta .single-area-8{
+	overflow: hidden;
+}
+.hoverta .single-area-8 .single-img-8 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-8 .single-img-8 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.hoverta .single-area-8 .single-img-8 .single-overlay-8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    background: #5774ee;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-area-8:hover .single-overlay-8{
+	right: 0;
+	opacity: .9;
+}
+.hoverta .single-overlay-8 .item-8 .item-8-zoom{
+	position: absolute;
+    left: 42%;
+    top: 25%;
+}
+.hoverta .single-overlay-8 .item-8 .item-8-zoom a{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #fff;
+	border-radius: 50%;
+	color: #5774ee;
+	font-size: 24px;
+	display: block;
+}
+.hoverta .single-overlay-8 .item-8 .item-8-social{
+	position: absolute;
+    left: 25%;
+    bottom: 25%;
+}
+.hoverta .single-overlay-8 .item-8 .item-8-social ul li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.hoverta .single-overlay-8 .item-8 .item-8-social ul li a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	text-align: center;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid #fff;
+}
+/*-------------End Hover-8-----------*/
+
+/*-------------10.Start Hover-9-----------*/
+.hoverta .hover-9{
+	position: relative;
+}
+.hoverta .single-area-9 .single-img-9 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-9 .single-img-9 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.hoverta .single-overlay-9{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-area-9:hover .single-overlay-9 .item-9{
+	bottom: 0;
+}
+.hoverta .single-overlay-9 .item-9{
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	bottom: -100%;
+    left: 0;
+	background: #e9e9ea;
+	-webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-overlay-9 .item-9-love{
+	position: absolute;
+    top: -18%;
+    left: 43%;
+    text-align: center;
+}
+.hoverta .single-overlay-9 .item-9 .item-9-love a{
+	display: block;
+	color: #5774ee;
+	background: #fff;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	font-size: 24px;
+}
+.hoverta .single-overlay-9 .item-9 .item-9-button {
+	position: absolute;
+    bottom: 40px;
+    left: 22%;
+    text-align: center;
+}
+.hoverta .single-overlay-9 .item-9 .item-9-button .item-9-btn{
+	padding: 15px 50px;
+	background: #5774ee;
+	color: #fff;
+	border-radius: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+/*-------------End Hover-9-----------*/
+
+/*-------------------11.Start hover-10----------------*/
+.hoverta .hover-10{
+	position: relative;
+}
+.hoverta .single-area-10 .single-img-10 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.hoverta .single-area-10 .single-img-10 img {
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+}
+.single-overlay-10{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.single-area-10:hover .single-overlay-10 .icon-item-top{
+	top: 0;
+}
+.hoverta .single-overlay-10 .icon-item-top{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 60%;
+	top: -100%;
+	background: #5774ee;
+    -webkit-transform: skew(0deg, -7deg) translateY(-21px);
+    -moz-transform: skew(0deg, -7deg) translateY(-21px);
+    transform: skew(0deg, -7deg) translateY(-21px);
+	-webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-overlay-10 .icon-item-top .item-10-love{
+	position: absolute;
+	top: 77%;
+	left: 43%;
+	color: #5774ee;
+	background: #fff;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	border-radius: 50%;
+	font-size: 24px;
+	-webkit-transform: skew(0deg, 7deg) translateY(0px);
+    -moz-transform: skew(0deg, 7deg) translateY(01px);
+    transform: skew(0deg, 7deg) translateY(0px);
+}
+.hoverta .single-overlay-10 .icon-item-top .item-10-love a{
+	color: #5774ee;
+}
+.hoverta .single-overlay-10 .icon-item-bottom{
+	position: absolute;
+    background: transparent;
+    bottom: -100%;
+    left: 25%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.hoverta .single-overlay-10 .icon-item-bottom .item-10-button .item-10-btn{
+	padding: 15px 50px;
+	color: #fff;
+	background: #5774ee;
+	font-size: 16px;
+	text-transform: capitalize;
+	text-align: center;
+	border-radius: 30px;
+	font-weight: 500;
+}
+.hoverta .single-area-10:hover .single-overlay-10 .icon-item-bottom{
+	bottom: 20px;
+}
+/*-------------------End hover-10----------------*/
+
+/*---------------------------------------
+    12.Responsive css
+---------------------------------------*/
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.hover-title h1::before {
+		left: 47%;
+	}
+	.hover-title h1::after {
+		left: 43%;
+	}
+    .hoverta .single-area-1 .single-img-1,
+    .hoverta .single-area-2 .single-img-2, 
+    .hoverta .single-area-3 .single-img-3, 
+    .hoverta .single-area-4 .single-img-4,
+    .hoverta .single-area-5 .single-img-5, 
+    .hoverta .single-area-6 .single-img-6, 
+    .hoverta .single-area-5 .single-img-5, 
+    .hoverta .single-area-6 .single-img-6, 
+    .hoverta .single-area-7 .single-img-7, 
+    .hoverta .single-area-8 .single-img-8, 
+    .hoverta .single-area-9 .single-img-9,
+    .hoverta .single-area-10 .single-img-10{
+		margin-bottom: 40px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-info {
+		width: 70%;
+		height: 60%;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-info h4 {
+		margin-bottom: 20px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-info .item-5-btn {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-social {
+		width: 70%;
+		height: 40%;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-social ul {
+		margin-top: 30px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info {
+		padding: 5px 5px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info h4 {
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info-list {
+		margin-bottom: 20px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info-list li {
+		line-height: 22px;
+		font-size: 10px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info .item-6-btn {
+		padding: 10px 25px;
+		font-size: 13px;
+	}
+	.hoverta .single-overlay-6 .item-6-arrow .arrow-6-list li a {
+		width: 27px;
+		height: 27px;
+		line-height: 27px;
+		font-size: 18px;
+	}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.hoverta.section-padding{
+		padding: 40px 0;
+	}
+    .hoverta .single-area-1 .single-img-1,
+    .hoverta .single-area-2 .single-img-2, 
+    .hoverta .single-area-3 .single-img-3, 
+    .hoverta .single-area-4 .single-img-4,
+    .hoverta .single-area-5 .single-img-5, 
+    .hoverta .single-area-6 .single-img-6, 
+    .hoverta .single-area-5 .single-img-5, 
+    .hoverta .single-area-6 .single-img-6, 
+    .hoverta .single-area-7 .single-img-7, 
+    .hoverta .single-area-8 .single-img-8, 
+    .hoverta .single-area-9 .single-img-9,
+    .hoverta .single-area-10 .single-img-10{
+		margin-bottom: 40px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-info {
+		width: 70%;
+		height: 60%;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-info h4 {
+		margin-bottom: 20px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-info .item-5-btn {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-social {
+		width: 70%;
+		height: 40%;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-social ul {
+		margin-top: 30px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info {
+		padding: 5px 5px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info h4 {
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info-list {
+		margin-bottom: 20px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info-list li {
+		line-height: 22px;
+		font-size: 10px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info .item-6-btn {
+		padding: 10px 25px;
+		font-size: 13px;
+	}
+	.hoverta .single-overlay-6 .item-6-arrow .arrow-6-list li a {
+		width: 27px;
+		height: 27px;
+		line-height: 27px;
+		font-size: 18px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.hover-title h1::after {
+		left: 170px;
+	}
+	.hover-title h1::before {
+		left: 200px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-social ul {
+		margin-top: 45px;
+	}
+	.hoverta .single-overlay-5 .item-5 .item-5-info h4 {
+		margin-bottom: 30px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info {
+		padding: 15px 15px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info h4 {
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info-list {
+		margin-bottom: 20px;
+	}
+	.hoverta .single-overlay-6 .item-6 .item-6-info-list li {
+		line-height: 28px;
+		font-size: 12px;
+	}
+	.hoverta .single-overlay-6 .item-6-arrow .arrow-6-list {
+		top: 23%;
+	}
+	.hoverta .single-overlay-6 .item-6-arrow .arrow-6-list li a {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 20px;
+	}
+}

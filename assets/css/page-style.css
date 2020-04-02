@@ -1,0 +1,136 @@
+/*---------------------------------------
+    Default CSS
+---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+* {
+    margin:0;
+    padding:0
+}
+.hoverta-wrapper a {
+    text-decoration:none
+}
+.hoverta-wrapper a:hover,
+.hoverta-wrapper a:focus {
+    text-decoration:none
+}
+.hoverta-wrapper ul{
+    margin-bottom: 0;
+}
+.hoverta-wrapper li {
+    list-style:none
+}
+.hoverta-wrapper h1, 
+.hoverta-wrapper h2, 
+.hoverta-wrapper h3, .hoverta-wrapper h4, .hoverta-wrapper h5, .hoverta-wrapper h6{
+    margin: 10px 0;
+}
+.hoverta-wrapper p{
+	margin: 0;
+}
+.hoverta-wrapper{
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #202020;
+    overflow-x: hidden;
+}
+section.hoverta{
+    overflow: hidden;
+}
+.hoverta.section-padding{
+	padding: 60px 0;
+}
+/*---------------------------------------
+    Start hoverta-hover-bg section css
+---------------------------------------*/
+.hoverta-hover-bg{
+	position: relative;
+	overflow: hidden;
+}
+.hoverta-hover-bg{
+	background: #000;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	position: relative;
+}
+.hoverta-text-area{
+	position: relative;
+}
+.hoverta-text h1{
+	text-transform: capitalize;
+	font-weight: 300;
+	color: #fff;
+	font-size: 44px; 
+	line-height: 64px;
+}
+.hoverta-text span{
+	font-weight: 600;
+}
+/*---------------------------------------
+    End hoverta-hover-bg section css
+---------------------------------------*/
+
+/*---------------------------------------
+    Start footer-area section css
+---------------------------------------*/
+.hoverta-footer{
+	background: #232323;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.hoverta-footer-text p{
+	color: #fff;
+	font-size: 16px;
+}
+#hoverta_scroll-up {
+    position: fixed;
+    z-index: 337;
+    bottom:30px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    display: none;
+    background: #5774ee;
+}
+#hoverta_scroll-up:hover,
+#hoverta_scroll-up:focus{
+    background: #5774ee;
+    color: #fff;
+}
+/*---------------------------------------
+    End footer-area section css
+---------------------------------------*/
+/*---------------------------------------
+    Responsive css
+---------------------------------------*/
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	.hoverta-text h1 {
+		font-size: 28px;
+		line-height: 32px;
+	}
+    .hoverta-footer-text {
+		text-align: center;
+	}
+	.hoverta-footer-text p {
+		font-size: 16px;
+	}
+}
